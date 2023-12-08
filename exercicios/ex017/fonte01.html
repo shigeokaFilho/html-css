@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            A recomendação oficial pela w3c é usar px ou em.
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus magni eius quisquam atque necessitatibus eveniet dolores totam non in illo, facere nisi, laboriosam perferendis modi ad possimus aut vitae officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore error perferendis maiores sed nihil aperiam amet dicta ad? Veniam hic debitis doloremque illo, culpa explicabo beatae quis dolor temporibus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam numquam ratione tempora aspernatur impedit, labore at, nostrum earum laboriosam error eum. Quod ea amet quidem dolores labore voluptatem vel dolor.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui itaque dignissimos esse maiores molestias alias rerum cum accusamus labore fugiat, ea repellat velit, perferendis quidem ipsum ratione nemo veniam?</p>
+</body>
+</html>
